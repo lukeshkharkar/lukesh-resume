@@ -1,89 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lukesh Kharkar - Resume</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin: 5px 0;
     }
     .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 960px;
+      margin: auto;
+      padding: 30px 20px;
     }
-    h1, h2 {
-      color: #2c3e50;
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #0d6efd;
+      border-bottom: 2px solid #0d6efd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
     }
     ul {
       padding-left: 20px;
     }
-    .section {
-      margin-bottom: 25px;
-    }
     a {
-      color: #1a73e8;
+      color: #0d6efd;
       text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      background-color: #eaf4ff;
+      padding: 10px;
+      border-left: 4px solid #0d6efd;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Lukesh Kharkar</h1>
-    <p><strong>Email:</strong> lukeshkharkar@gmail.com | <strong>Phone:</strong> +91 7666822268</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/lukeshkharkar" target="_blank">lukeshkharkar</a> |
-       <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lukeshkharkar" target="_blank">lukeshkharkar</a></p>
 
+  <header>
+    <h1>Lukesh Kharkar</h1>
+    <p>📞 +91 7666822268 | 📧 <a href="mailto:lukeshkharkar@gmail.com" style="color:white;">lukeshkharkar@gmail.com</a></p>
+    <p>🌐 <a href="https://github.com/lukeshkharkar" target="_blank" style="color:white;">GitHub</a> | <a href="https://linkedin.com/in/lukeshkharkar" target="_blank" style="color:white;">LinkedIn</a></p>
+  </header>
+
+  <div class="container">
     <div class="section">
       <h2>Summary</h2>
-      <p>Dedicated Electronics Engineering student with strong interest in data analytics, problem-solving, and real-world applications.
-         Skilled in Python, ML, and data visualization with a focus on building impactful solutions.</p>
+      <p>Curious and focused Electronics Engineering student with a passion for data analytics, AI, and solving real-world problems through smart technologies. Adept in Python, ML, SQL, and visualization tools like Power BI and Excel. Always eager to explore new tech and contribute to impactful projects.</p>
     </div>
 
     <div class="section">
       <h2>Education</h2>
       <ul>
-        <li><strong>2022–2026:</strong> B.Tech - Electronics Engineering, MITAOE Pune | CGPA: 7.01</li>
-        <li><strong>2021:</strong> 12th, Shri Devrao Dada Jr. College, Amravati | 76.67%</li>
-        <li><strong>2019:</strong> 10th, Late Bapuraoji Lande Vidyalaya | 81%</li>
+        <li><strong>B.Tech - Electronics Engineering</strong>, MITAOE Pune (2022–2026) – CGPA: 7.01</li>
+        <li><strong>12th (MSBSHSE)</strong>, Shri Devrao Dada Jr. College, Amravati – 76.67%</li>
+        <li><strong>10th (MSBSHSE)</strong>, Late Bapuraoji Lande Vidyalaya – 81%</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Skills</h2>
-      <p>Python, SQL, Excel, Power BI, AWS, IoT, Data Analytics</p>
+      <p>Python, SQL, Excel, Power BI, AWS, IoT, Data Analytics, Machine Learning</p>
     </div>
 
     <div class="section">
       <h2>Projects</h2>
-      <p><strong>Diabetes Prediction using Machine Learning</strong> (Aug–Dec 2024)</p>
+      <div class="highlight">
+        <strong>Diabetes Prediction using Machine Learning</strong><br/>
+        <em>Aug 2024 – Dec 2024</em><br/>
+        Built an SVM-based web app to predict diabetes with 77% accuracy. Includes data cleaning, feature engineering, and REST API deployment using Flask.<br/>
+        🔗 <a href="https://github.com/lukeshkharkar/diabetes-prediction-web-app" target="_blank">GitHub Repo</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
       <ul>
-        <li>Created a web app to predict diabetes from patient data.</li>
-        <li>Trained an SVM model (~77% accuracy), deployed via Flask API.</li>
-        <li>GitHub: <a href="https://github.com/lukeshkharkar/diabetes-prediction-web-app" target="_blank">View Project</a></li>
+        <li>NPTEL Cloud Computing – 84/100</li>
+        <li>IUCEE – Mastering Multi-Agent AI (Dec 2024 – Jan 2025)</li>
+        <li>IUCEE – AI for All (May 2024 – July 2024)</li>
+        <li>ExcelR – Business Intelligence using Advanced Excel & Power BI</li>
       </ul>
     </div>
 
     <div class="section">
-      <h2>Certifications & Trainings</h2>
-      <ul>
-        <li><strong>NPTEL - Cloud Computing</strong> (84/100)</li>
-        <li><strong>IUCEE - Mastering Multi-Agent AI</strong> (Dec 2024 - Jan 2025)</li>
-        <li><strong>IUCEE - AI for All</strong> (May - Jul 2024)</li>
-        <li><strong>ExcelR - Business Intelligence Using Excel & Power BI</strong></li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Hobbies</h2>
-      <p>Exploring AI Tools, Data Visualization, Learning new tech, Playing Sports</p>
+      <h2>Hobbies & Interests</h2>
+      <p>Data Visualization, Exploring AI Tools, Sports, Automation Projects</p>
     </div>
   </div>
 </body>
